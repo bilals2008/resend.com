@@ -1,3 +1,4 @@
+/* File: app/globals.css */
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -120,3 +121,7 @@
     @apply bg-background text-foreground;
   }
 }
+.sm-scope {
+  --staggered-menu-bg-color: #000 !important;
+}
+
