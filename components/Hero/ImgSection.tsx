@@ -30,6 +30,8 @@ function ImgSection() {
               width={700}
               height={450}
               priority
+              blurDataURL='data....'
+              placeholder='blur'
             />
           </div>
         </motion.div>
