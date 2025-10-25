@@ -8,9 +8,9 @@ import Mobile from './Navbar/Mobile/Mobile';
 function Header() {
   return (
     <>
-      <div className="max-w-[97%] h-auto mx-auto px-2 py-3 ">
+      <div className="h-auto mx-auto px-2 py-3 ">
         <Mobile/>
-        <div className=" hidden lg:flex w-full  justify-between items-center gap-3 ">
+        <div className=" hidden lg:flex w-full  justify-between items-center gap-3 border-b pb-3">
           <Logo />
           <Menu />
           <GetStarted />
