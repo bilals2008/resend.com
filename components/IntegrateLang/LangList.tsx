@@ -1,3 +1,4 @@
+// File: components/IntegrateLang/langList.tsx
 "use client";
 
 import Image from "next/image";
@@ -45,13 +46,13 @@ function LangList() {
 
   return (
     <motion.div
-      className="max-w-5xl mx-auto py-16"
+      className="max-w-5xl mx-auto py-5"
       variants={containerVariants}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
     >
-      <div className="w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-6 place-items-center">
+      <div className="w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-4 lg:gap-6 place-items-center">
         {languages.map((lang, idx) => (
           <motion.div
             key={idx}

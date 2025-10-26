@@ -1,3 +1,4 @@
+// File: components/common/ContentSection.tsx
 "use client";
 
 import Image from "next/image";
