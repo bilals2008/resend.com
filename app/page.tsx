@@ -3,6 +3,7 @@
 import Companies from "@/components/Companies/Companies";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
+import IntegrateLangs from "@/components/IntegrateLang/IntegrateLangs";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Header />
         <Hero/>
         <Companies/>
+        <IntegrateLangs/>
       </div>
     </>
   )
