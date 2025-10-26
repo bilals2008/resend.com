@@ -5,7 +5,7 @@ import React from 'react'
 function CodeFooter() {
     const classes = "hover:bg-[#f1f7feb5]/10 p-1 rounded cursor-pointer py-2";
   return (
-    <div className="w-full flex items-center justify-center lg:justify-start mt-2 mb-1 text-[#F1F7FEB5] text-sm">
+    <div className="w-full flex items-center justify-center lg:justify-start mt-2 mb-1 text-[#F1F7FEB5] text-sm ml-5">
       <p className={classes}>
         <Github className="inline-block mr-2 mb-1" size={16} />
         View on GitHub
