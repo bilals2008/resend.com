@@ -6,6 +6,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { ArrowRight, ChevronRight } from "lucide-react";
 import { motion, Variants } from "framer-motion";
+import ColourfulText from "../ui/colourful-text";
 
 interface Props {
   imgSrc?: string;
@@ -58,9 +59,14 @@ function ContentSection({
       {/* Heading */}
       <motion.h1
         variants={fadeUp}
-        className="text-3xl font-bold tracking-tighter leading-10 md:leading-12 text-center"
+        className="text-3xl font-medium tracking-wide leading-10 md:leading-12 text-center"
       >
-        {heading || "Integrate this morning"}
+        {heading || (
+          <span className="text-3xl font-medium tracking-wide leading-10 md:leading-12 text-center">
+            Intergate{" "}
+            <ColourfulText text="this moring" colors={["#FFFF92", "#EE8912"]} />
+          </span>
+        )}
       </motion.h1>
 
       {/* Description */}
