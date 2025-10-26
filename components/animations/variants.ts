@@ -1,3 +1,4 @@
+// File: components/animations/variants.ts
 import { Variants } from "framer-motion";
 
 /* 🔹 Parent container for staggered animations */
