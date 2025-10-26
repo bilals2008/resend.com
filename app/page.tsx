@@ -1,6 +1,7 @@
 // File: app/page.tsx
 
 import Companies from "@/components/Companies/Companies";
+import DeveloperExperience from "@/components/DeveloperExperience/DeveloperExperience";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import IntegrateLangs from "@/components/IntegrateLang/IntegrateLangs";
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero/>
         <Companies/>
         <IntegrateLangs/>
+        <DeveloperExperience/>
       </div>
     </>
   )
