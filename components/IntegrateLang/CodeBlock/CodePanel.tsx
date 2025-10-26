@@ -19,7 +19,7 @@ export default function CodePanel({ activeTab }: Props) {
   const code = codeSnippets[activeTab] || "// No code snippet available";
 const language = activeTab === "node js" ? "javascript" : activeTab;
   return (
-    <div className="overflow-x-auto mt-4 ">
+    <div className="overflow-x-auto mt-4 max-h-[500px] overflow-y-scroll">
       <SyntaxHighlighter
         language={language}
         style={dracula}

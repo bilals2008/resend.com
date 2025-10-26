@@ -10,15 +10,15 @@ import CodeFooter from "./CodeFooter";
 
 function TabPanel() {
   return (
-    <div className="w-full px-2 py-1">
+    <div className="w-full px-2 py-1 ">
       <Tabs defaultValue={tabsList[0].label.toLowerCase()}>
         <div className="w-full overflow-x-auto border-b border-[#D6EBFD30] py-2 flex items-center justify-between px-2">
-          <TabsList className=" bg-background">
+          <TabsList className=" bg-background ">
             {tabsList.map((tab, idx) => (
               <TabsTrigger
                 key={idx}
                 value={tab.label.toLowerCase()}
-                className="flex-shrink-0"
+                className="flex-shrink-0 cursor-pointer"
               >
                 <div className="flex items-center justify-center gap-1 p-1 px-2">
                   <Image
@@ -33,7 +33,7 @@ function TabPanel() {
             ))}
           </TabsList>
           <div className="cursor-pointer">
-            <Clipboard/>
+            <Clipboard />
           </div>
         </div>
         {tabsList.map((tab, idx) => (
@@ -41,9 +41,8 @@ function TabPanel() {
             <CodePanel activeTab={tab.label.toLowerCase()} />
           </TabsContent>
         ))}
-        <CodeFooter/>
+        <CodeFooter />
       </Tabs>
-      
     </div>
   );
 }
