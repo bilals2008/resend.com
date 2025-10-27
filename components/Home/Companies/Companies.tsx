@@ -1,7 +1,7 @@
 // File: components/Companies/Companies.tsx
-import React from 'react'
-import ShiningLine from '../common/ShiningLine';
-import CompaniesLogos from './CompaniesLogos';
+import React from "react";
+import ShiningLine from "../../common/ShiningLine";
+import CompaniesLogos from "./CompaniesLogos";
 
 function Companies() {
   return (
@@ -22,4 +22,4 @@ function Companies() {
   );
 }
 
-export default Companies
+export default Companies;

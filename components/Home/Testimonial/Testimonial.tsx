@@ -1,17 +1,16 @@
 // File: components/Testimonial/Testimonial.tsx
-import React from 'react'
-import ShiningLine from '../common/ShiningLine'
-import ContentSection from '../common/ContentSection';
-import ClientQoute from './ClientQoute';
+import React from "react";
+import ShiningLine from "../../common/ShiningLine";
+import ContentSection from "../../common/ContentSection";
+import ClientQoute from "./ClientQoute";
 
 function Testimonial() {
-  
-    const heaing = (
-      <span>
-        Resend is transforming email for developers. Simple interface, easy
-        integrations, handy templates. What else could we ask for.
-      </span>
-    );
+  const heaing = (
+    <span>
+      Resend is transforming email for developers. Simple interface, easy
+      integrations, handy templates. What else could we ask for.
+    </span>
+  );
   return (
     <div className="my-30">
       <div className="relative">
@@ -31,5 +30,4 @@ function Testimonial() {
   );
 }
 
-
-export default Testimonial
+export default Testimonial;

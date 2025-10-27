@@ -1,9 +1,9 @@
 // File: components/IntegrateLang/IntegrateLangs.tsx
 import React from "react";
-import ContentSection from "../common/ContentSection";
+import ContentSection from "../../common/ContentSection";
 import LangList from "./LangList";
 import CodeBlock from "./CodeBlock/CodeBlock";
-import ColourfulText from "../ui/colourful-text";
+import ColourfulText from "../../ui/colourful-text";
 
 function IntegrateLangs() {
   const descption =

@@ -1,7 +1,7 @@
 // File: components/DeveloperExperience/DeveloperExperience.tsx
-import React from 'react'
-import TextBlock from '../common/TextBlock';
-import FeatureCard from './FeatureCard';
+import React from "react";
+import TextBlock from "../../common/TextBlock";
+import FeatureCard from "./FeatureCard";
 
 function DeveloperExperience() {
   return (
@@ -12,4 +12,4 @@ function DeveloperExperience() {
   );
 }
 
-export default DeveloperExperience
+export default DeveloperExperience;

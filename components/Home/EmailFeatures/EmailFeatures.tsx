@@ -1,7 +1,7 @@
 // File: components/EmailFeatures/EmailFeatures.tsx
 import React from 'react'
-import TextBlock from '../common/TextBlock'
-import ShiningLine from '../common/ShiningLine';
+import TextBlock from '../../common/TextBlock'
+import ShiningLine from '../../common/ShiningLine';
 import EmailFeatureList from './EmailFeatureList';
 
 function EmailFeatures() {
