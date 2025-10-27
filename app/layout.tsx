@@ -12,7 +12,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <html lang="en" suppressHydrationWarning>
         <head />
         <body
-          className={`max-w-[99%] overflow-x-hidden h-auto mx-auto px-2 py-3 ${inter.className} font-medium`}
+          className={`max-w-[99%]  h-auto mx-auto px-2 py-3 ${inter.className} font-medium`}
         >
           <ThemeProvider
             attribute="class"
