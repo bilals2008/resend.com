@@ -17,7 +17,7 @@ function TextBlock({
   return (
     <div className={className}>
       <h1
-        className={`scroll-m-24 text-4xl font-medium tracking-tight text-balance ${headerClassName}`}
+        className={`scroll-m-24 text-4xl font-medium tracking-tight text-balance leading-12 italic ${headerClassName}`}
       >
         {heading || (
           <>

@@ -10,12 +10,13 @@ function EmailFeatures() {
       <ShiningLine />
       <TextBlock
         heading={
-          <span>
+          <span className="">
             Reach humans,
             <br />
             not spam folders
           </span>
         }
+        headerClassName="text-center md:text-left"
       />
       <EmailFeatureList />
     </div>
