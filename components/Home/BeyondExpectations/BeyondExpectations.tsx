@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 function BeyondExpectations() {
   return (
-    <div className=" mb-20 mx-auto max-w-5xl relative">
+    <div className="-mb-7 md:-mb-10 mx-auto max-w-5xl relative ">
       <ShiningLine />
       <ContentSection
         heading="Beyond Expectations"
@@ -21,9 +21,8 @@ stories, empower businesses, and fuel growth across industries and individuals."
         <Image
           src={"/images/Home/resend-img.png"}
           alt="Resend banner"
-          width={1232}
-          height={330}
-          className=""
+          width={1000}
+          height={200}
         />
         <div className="">
           <ShiningLine />
