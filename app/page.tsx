@@ -5,6 +5,7 @@ import DeveloperExperience from "@/components/DeveloperExperience/DeveloperExper
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import IntegrateLangs from "@/components/IntegrateLang/IntegrateLangs";
+import ReactEmailSection from "@/components/ReactEmail/ReactEmailSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Companies/>
         <IntegrateLangs/>
         <DeveloperExperience/>
+        <ReactEmailSection/>
       </div>
     </>
   )
