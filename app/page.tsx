@@ -10,6 +10,7 @@ import EmailFeatures from "@/components/Home/EmailFeatures/EmailFeatures";
 import Testimonial from "@/components/Home/Testimonial/Testimonial";
 import AnalyticsControl from "@/components/Home/AnalyticsControl/AnalyticsControl";
 import BeyondExpectations from "@/components/Home/BeyondExpectations/BeyondExpectations";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Testimonial />
         <AnalyticsControl/>
         <BeyondExpectations/>
+        <Footer/>
       </div>
     </>
   );
