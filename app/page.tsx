@@ -8,6 +8,7 @@ import IntegrateLangs from "@/components/Home/IntegrateLang/IntegrateLangs";
 import ReactEmailSection from "@/components/Home/ReactEmail/ReactEmailSection";
 import EmailFeatures from "@/components/Home/EmailFeatures/EmailFeatures";
 import Testimonial from "@/components/Home/Testimonial/Testimonial";
+import AnalyticsControl from "@/components/Home/AnalyticsControl/AnalyticsControl";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <ReactEmailSection />
         <EmailFeatures />
         <Testimonial />
+        <AnalyticsControl/>
       </div>
     </>
   );
