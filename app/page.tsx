@@ -2,11 +2,12 @@
 
 import Companies from "@/components/Companies/Companies";
 import DeveloperExperience from "@/components/DeveloperExperience/DeveloperExperience";
-import EmailFeatures from "@/components/EmailFeatures/EmailFeatures";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import IntegrateLangs from "@/components/IntegrateLang/IntegrateLangs";
 import ReactEmailSection from "@/components/ReactEmail/ReactEmailSection";
+import EmailFeatures from "@/components/EmailFeatures/EmailFeatures";
+import Testimonial from "@/components/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <DeveloperExperience/>
         <ReactEmailSection/>
         <EmailFeatures/>
+        <Testimonial/>
       </div>
     </>
   )

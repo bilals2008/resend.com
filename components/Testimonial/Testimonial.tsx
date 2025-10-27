@@ -1,0 +1,35 @@
+// File: components/Testimonial/Testimonial.tsx
+import React from 'react'
+import ShiningLine from '../common/ShiningLine'
+import ContentSection from '../common/ContentSection';
+import ClientQoute from './ClientQoute';
+
+function Testimonial() {
+  
+    const heaing = (
+      <span>
+        Resend is transforming email for developers. Simple interface, easy
+        integrations, handy templates. What else could we ask for.
+      </span>
+    );
+  return (
+    <div className="my-30">
+      <div className="relative">
+        <ShiningLine />
+      </div>
+      <ContentSection
+        imgSrc="/vercel.svg"
+        imgWidth={40}
+        imgHeight={40}
+        imgalt="vercel logo"
+        heading={heaing}
+        imgClassName="bg-[radial-gradient(70.71%_70.71%_at_50%_50%,rgba(200,200,200,0.15)_30%,#000000_90%)] p-4 rounded-full flex items-center justify-center"
+        headingClassName="text-xl font-medium max-w-xl mx-auto leading-8 md:leading-7 mt-4"
+      />
+      <ClientQoute />
+    </div>
+  );
+}
+
+
+export default Testimonial

@@ -6,15 +6,19 @@ import React from "react";
 import { Button } from "../ui/button";
 import { ArrowRight, ChevronRight } from "lucide-react";
 import { motion, Variants } from "framer-motion";
-import ColourfulText from "../ui/colourful-text";
+import { cn } from "@/lib/utils";
 
 interface Props {
   imgSrc?: string;
   imgalt?: string;
   ClassName?: string;
-  heading?: string;
+  heading?: string | React.ReactNode;
   desciption?: string;
   btnText?: string[];
+  imgWidth?: number;
+  imgHeight?: number;
+  headingClassName?: string;
+  imgClassName?: string;
 }
 
 function ContentSection({
@@ -23,6 +27,10 @@ function ContentSection({
   heading,
   desciption,
   btnText = [],
+  imgWidth,
+  imgHeight,
+  headingClassName,
+  imgClassName,
 }: Props) {
   // 🔹 Soft fade-up animation (lightweight)
   const fadeUp: Variants = {
@@ -46,11 +54,11 @@ function ContentSection({
       className="flex flex-col items-center justify-center mx-auto w-full px-2 py-10"
     >
       {/* Image */}
-      <motion.div variants={fadeUp}>
+      <motion.div variants={fadeUp} className={imgClassName}>
         <Image
           src={imgSrc || "/images/GmailBox.jpg"}
-          width={100}
-          height={100}
+          width={imgWidth || 100}
+          height={imgHeight || 100}
           alt={imgalt || "img"}
           className="mb-3"
         />
@@ -59,14 +67,12 @@ function ContentSection({
       {/* Heading */}
       <motion.h1
         variants={fadeUp}
-        className="text-3xl font-medium tracking-wide leading-10 md:leading-12 text-center"
-      >
-        {heading || (
-          <span className="text-3xl font-medium tracking-wide leading-10 md:leading-12 text-center">
-            Intergate{" "}
-            <ColourfulText text="this moring" colors={["#FFFF92", "#EE8912"]} />
-          </span>
+        className={cn(
+          "text-3xl font-medium tracking-wide leading-10 md:leading-12 text-center",
+          headingClassName
         )}
+      >
+        {heading}
       </motion.h1>
 
       {/* Description */}
@@ -74,10 +80,7 @@ function ContentSection({
         variants={fadeUp}
         className="text-muted-foreground mt-1 max-w-xl mx-auto text-center"
       >
-        {desciption ||
-          `A simple, elegant interface so you can start sending emails in minutes.
-        It fits right into your code with SDKs for your favorite programming
-        languages.`}
+        {desciption}
       </motion.p>
 
       {/* Buttons */}
