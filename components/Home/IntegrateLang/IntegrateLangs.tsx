@@ -18,7 +18,11 @@ function IntegrateLangs() {
 
   return (
     <div className="py-10 max-w-5xl mx-auto">
-      <ContentSection heading={headingText} desciption={descption} />
+      <ContentSection
+        heading={headingText}
+        desciption={descption}
+        imgSrc="/images/GmailBox.jpg"
+      />
       <LangList />
       <CodeBlock />
     </div>

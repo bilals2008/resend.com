@@ -55,13 +55,15 @@ function ContentSection({
     >
       {/* Image */}
       <motion.div variants={fadeUp} className={imgClassName}>
-        <Image
-          src={imgSrc || "/images/GmailBox.jpg"}
-          width={imgWidth || 100}
-          height={imgHeight || 100}
-          alt={imgalt || "img"}
-          className="mb-3"
-        />
+        {imgSrc && (
+          <Image
+            src={imgSrc}
+            width={imgWidth || 100}
+            height={imgHeight || 100}
+            alt={imgalt || "img"}
+            className="mb-3"
+          />
+        )}
       </motion.div>
 
       {/* Heading */}
