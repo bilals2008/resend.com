@@ -6,8 +6,8 @@ import Header from "@/components/Header/Header";
 import Hero from "@/components/Home/Hero/Hero";
 import IntegrateLangs from "@/components/Home/IntegrateLang/IntegrateLangs";
 import ReactEmailSection from "@/components/Home/ReactEmail/ReactEmailSection";
+import EmailFeatures from "@/components/Home/EmailFeatures/EmailFeatures";
 import Testimonial from "@/components/Home/Testimonial/Testimonial";
-import EmailFeatureList from "@/components/Home/EmailFeatures/EmailFeatureList";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <IntegrateLangs />
         <DeveloperExperience />
         <ReactEmailSection />
-        <EmailFeatureList />
+        <EmailFeatures />
         <Testimonial />
       </div>
     </>
