@@ -5,7 +5,7 @@ import ImageSec from "./ImageSec";
 
 function ReactEmailSection() {
     return (
-        <div className="w-full mx-auto">
+        <div className="w-full mx-auto mt-20 mb-10">
             <ContentSection
                 imgSrc="/images/ReactLogo.jpg"
                 imgalt="ReactLogo"

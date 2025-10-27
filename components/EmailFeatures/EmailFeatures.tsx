@@ -6,10 +6,18 @@ import EmailFeatureList from './EmailFeatureList';
 
 function EmailFeatures() {
   return (
-    <div className='max-w-5xl mx-auto px-2 py-10 border-t relative'>
-        <ShiningLine/>
-      <TextBlock heading={<span>Reach humans,<br/>not spam folders</span>} />
-      <EmailFeatureList/>
+    <div className="max-w-5xl mx-auto px-2 py-10 border-t  relative mt-56 mb-10">
+      <ShiningLine />
+      <TextBlock
+        heading={
+          <span>
+            Reach humans,
+            <br />
+            not spam folders
+          </span>
+        }
+      />
+      <EmailFeatureList />
     </div>
   );
 }
