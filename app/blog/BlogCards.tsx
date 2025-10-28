@@ -20,8 +20,8 @@ function BlogCards() {
           <Image
             src={post.image}
             alt={post.title}
-            width={604}
-            height={318}
+            width={500}
+            height={300}
             className="w-full rounded-xl border border-[#ffffff1a]"
           />
 

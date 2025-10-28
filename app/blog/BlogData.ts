@@ -3,7 +3,7 @@ export const blogPosts = [
   {
     id: 1,
     title: "Resend raises $3M",
-    image: "/images/About/blog-1.png",
+    image: "/images/blog/blog-33.png",
     authorInfo: "Emily Carter - Feb 1, 2023",
     authorImage: "https://i.pravatar.cc/150?img=2",
   },
