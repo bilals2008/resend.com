@@ -1,6 +1,6 @@
 // File: app/about/OurBlog/BlogCard.tsx
-import React from 'react'
-import { blogPosts } from './blogData';
+import React from "react";
+import { blogPosts } from "./blogData";
 import Image from "next/image";
 import { motion } from "motion/react";
 import { fadeUp } from "@/components/animations/variants";
@@ -34,4 +34,4 @@ function BlogCard() {
   );
 }
 
-export default BlogCard
+export default BlogCard;
