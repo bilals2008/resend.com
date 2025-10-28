@@ -25,6 +25,7 @@ the best communication platform for developers."
         </span>
         Some of our team meeting for the first time in-person during a trip to
         Portugal
+        
       </p>
     </div>
   );
