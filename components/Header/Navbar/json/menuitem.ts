@@ -12,8 +12,6 @@ export const menuItems:Menuitems[] = [
   {
     title: "About",
     href: "/about",
-    description:
-      "Learn more about our mission, vision, and the team behind the project.",
   },
   {
     title: "Blog",
