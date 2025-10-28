@@ -16,8 +16,8 @@ function OurTeam() {
         desciption="A fully remote team on a mission to build
 the best communication platform for developers."
       />
-      <p className="text-sm text-[#F1F7FEB5] text-center font-light flex items-center justify-center gap-1 -mt-12">
-        <span>
+      <p className="text-sm text-[#F1F7FEB5] text-center font-light flex items-center justify-start md:justify-center gap-1 -mt-12">
+        <span className='hidden md:block'>
           <Twitter
             size={16}
           color='#F1F7FEB5'
