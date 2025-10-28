@@ -2,7 +2,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { Button } from "../../ui/button";
+import { Button } from "../../../components/ui/button";
 import { featuresList } from ".";
 import { FlaskConical, FlaskRound } from "lucide-react";
 

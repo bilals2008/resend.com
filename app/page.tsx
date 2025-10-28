@@ -1,14 +1,14 @@
 // File: app/page.tsx
 
-import Companies from "@/components/Home/Companies/Companies";
-import DeveloperExperience from "@/components/Home/DeveloperExperience/DeveloperExperience";
-import Hero from "@/components/Home/Hero/Hero";
-import IntegrateLangs from "@/components/Home/IntegrateLang/IntegrateLangs";
-import ReactEmailSection from "@/components/Home/ReactEmail/ReactEmailSection";
-import EmailFeatures from "@/components/Home/EmailFeatures/EmailFeatures";
-import Testimonial from "@/components/Home/Testimonial/Testimonial";
-import AnalyticsControl from "@/components/Home/AnalyticsControl/AnalyticsControl";
-import BeyondExpectations from "@/components/Home/BeyondExpectations/BeyondExpectations";
+import Companies from "@/app/Home/Companies/Companies";
+import DeveloperExperience from "@/app/Home/DeveloperExperience/DeveloperExperience";
+import Hero from "@/app/Home/Hero/Hero";
+import IntegrateLangs from "@/app/Home/IntegrateLang/IntegrateLangs";
+import ReactEmailSection from "@/app/Home/ReactEmail/ReactEmailSection";
+import EmailFeatures from "@/app/Home/EmailFeatures/EmailFeatures";
+import Testimonial from "@/app/Home/Testimonial/Testimonial";
+import AnalyticsControl from "@/app/Home/AnalyticsControl/AnalyticsControl";
+import BeyondExpectations from "@/app/Home/BeyondExpectations/BeyondExpectations";
 
 export default function Home() {
   return (
@@ -21,8 +21,8 @@ export default function Home() {
         <ReactEmailSection />
         <EmailFeatures />
         <Testimonial />
-        <AnalyticsControl/>
-        <BeyondExpectations/>
+        <AnalyticsControl />
+        <BeyondExpectations />
       </div>
     </>
   );
