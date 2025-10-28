@@ -4,6 +4,7 @@ import AboutIntro from './AboutIntro';
 import OurStory from './OurStory';
 import OurTeam from './OurTeam';
 import BeliefsSection from './BeliefsSection/BeliefsSection';
+import OpenPositions from './OpenPositions';
 function page() {
   return (
     <div className="page">
@@ -11,6 +12,7 @@ function page() {
       <OurStory />
       <OurTeam />
       <BeliefsSection/>
+      <OpenPositions/>
     </div>
   );
 }
