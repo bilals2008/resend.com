@@ -7,35 +7,29 @@ interface tabsListType  {
 
 export const tabsList: tabsListType[] = [
   {
-    imgSrc: "/images/LangsLogo/js.png",
+    imgSrc: "/images/Home/LangsLogo/js.png",
     altText: "node js logo",
     label: "Node js",
   },
   {
-    imgSrc: "/images/LangsLogo/ruby.png",
-    altText: "ruby logo",
-    label: "Ruby",
+    imgSrc: "/images/Home/LangsLogo/serverless.png",
+    altText: "serverless logo",
+    label: "Serverless",
   },
   {
-    imgSrc: "/images/LangsLogo/python.png",
+    imgSrc: "/images/Home/LangsLogo/python.png",
     altText: "python logo",
     label: "Python",
   },
 
   {
-    imgSrc: "/images/LangsLogo/java.png",
+    imgSrc: "/images/Home/LangsLogo/java.png",
     altText: "java logo",
     label: "Java",
   },
   {
-    imgSrc: "/images/LangsLogo/elixir.png",
+    imgSrc: "/images/Home/LangsLogo/elixir.png",
     altText: "elixir logo",
     label: "Elixir",
-  },
-
-  {
-    imgSrc: "/images/LangsLogo/serverless.png",
-    altText: "serverless logo",
-    label: "Serverless",
   },
 ];
