@@ -3,6 +3,7 @@ import ContentSection from '@/components/common/ContentSection';
 import ShiningLine from '@/components/common/ShiningLine';
 import React from 'react'
 import OurStory from './OurStory';
+import OurTeam from './OurTeam';
 
 function AboutIntro() {
   return (
@@ -21,6 +22,7 @@ email sending platform"
         <ShiningLine />
       </div>
       <OurStory />
+      <OurTeam/>
     </div>
   );
 }

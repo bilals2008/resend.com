@@ -7,7 +7,7 @@ function OurStory() {
       <h1 className="text-3xl sm:text-4xl md:text-5xl py-10 text-center">
         OurStory
       </h1>
-      <div className="max-w-lg sm:max-w-xl md:max-w-2xl tracking-wide paraColor mx-auto text-base sm:text-lg md:text-[18px] space-y-3 sm:space-y-4 md:space-y-5 leading-7 sm:leading-8 font-light align-middle">
+      <div className="max-w-lg sm:max-w-xl md:max-w-2xl tracking-wide paraColor mx-auto text-base sm:text-lg md:text-[18px] space-y-3  md:space-y-4 leading-7 sm:leading-8 font-light align-middle text-center md:text-left">
         <p>
           Resend started with an open source project in 2022. We were frustrated
           by how difficult it was to build modern email templates that worked
