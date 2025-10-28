@@ -3,11 +3,13 @@ import React from 'react'
 import Logo from './Navbar/computer/Logo';
 import Menu from './Navbar/computer/Menu';
 import GetStarted from './Navbar/computer/GetStarted';
+import MobileMenu from './Navbar/mobile/MobileMEnu';
 
 function Header() {
   return (
     <>
       <div className="h-auto mx-auto px-2 py-3 ">
+        <MobileMenu/>
         <div className=" hidden lg:flex w-full  justify-between items-center gap-3 border-b pb-3">
           <Logo />
           <Menu />

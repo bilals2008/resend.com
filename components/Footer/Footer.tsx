@@ -19,7 +19,7 @@ export default function Footer() {
 
       <div className="relative max-w-7xl mx-auto px-3 py-16 grid grid-cols-3 md:grid-cols-6 gap-8 ">
         {/* Left side (Brand + Socials) */}
-        <div className="col-span-3 md:col-span-2 flex md:flex-col flex-row justify-between mb-5">
+        <div className="col-span-3 md:col-span-2 flex flex-col justify-between mb-5">
           <div>
           <FooterLogo/>
             <p className="text-sm text-gray-500 max-w-xs">
