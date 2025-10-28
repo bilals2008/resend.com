@@ -1,5 +1,9 @@
 // File: components/common/TextBlock.tsx
-import React from 'react'
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
+import { fadeUp } from "@/components/animations/variants";
+
 interface TextBlockProps {
   heading?: string | React.ReactNode;
   paragraph?: string | React.ReactNode;
@@ -7,6 +11,7 @@ interface TextBlockProps {
   headerClassName?: string;
   paraClassName?: string;
 }
+
 function TextBlock({
   heading,
   paragraph,
@@ -15,7 +20,13 @@ function TextBlock({
   paraClassName,
 }: TextBlockProps) {
   return (
-    <div className={className}>
+    <motion.div
+      variants={fadeUp}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+      className={className}
+    >
       <h1
         className={`scroll-m-24 text-4xl font-medium tracking-tight text-balance leading-12 italic ${headerClassName}`}
       >
@@ -30,8 +41,8 @@ function TextBlock({
       >
         {paragraph}
       </p>
-    </div>
+    </motion.div>
   );
 }
 
-export default TextBlock
+export default TextBlock;

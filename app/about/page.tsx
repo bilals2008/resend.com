@@ -5,6 +5,7 @@ import OurStory from './OurStory';
 import OurTeam from './OurTeam';
 import BeliefsSection from './BeliefsSection/BeliefsSection';
 import OpenPositions from './OpenPositions';
+import OverInvestors from './OurInvestors/OverInvestors';
 function page() {
   return (
     <div className="page">
@@ -13,6 +14,7 @@ function page() {
       <OurTeam />
       <BeliefsSection/>
       <OpenPositions/>
+      <OverInvestors/>
     </div>
   );
 }
