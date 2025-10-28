@@ -5,13 +5,9 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import { motion, useInView, useScroll, useTransform } from "motion/react";
 import { slideInScroll } from "@/components/animations/variants";
+import { images } from "./Images";
 
-const images: { src: string; direction: "left" | "right" }[] = [
-  { src: "/images/About/card-1.png", direction: "left" },
-  { src: "/images/About/card-2.png", direction: "right" },
-  { src: "/images/About/card-3.png", direction: "left" },
-  { src: "/images/About/card-4.png", direction: "right" },
-];
+
 
 function FeatureCard() {
   return (
