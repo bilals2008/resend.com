@@ -10,7 +10,7 @@ function AboutIntro() {
         imgalt="aboutIntro image"
         heading="Building the modern
 email sending platform"
-headingClassName=' max-w-xs'
+        headingClassName=" max-w-xs md:leading-10 mb-2"
         desciption={
           "The web has come a long way in the last ten years, but why is email stuck in the past? It doesn't have to be that way. We want to change that. We want to reimagine email."
         }

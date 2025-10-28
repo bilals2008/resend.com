@@ -70,7 +70,7 @@ function ContentSection({
       <motion.h1
         variants={fadeUp}
         className={cn(
-          "text-3xl font-medium tracking-wide leading-10 md:leading-12 text-center",
+          "text-3xl font-medium tracking-wide leading-10 md:leading-12  text-center",
           headingClassName
         )}
       >
