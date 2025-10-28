@@ -133,7 +133,9 @@
 .paraColor {
   @apply text-[#F1F7FEB5]
 }
-
+.section {
+  @apply py-10 max-w-5xl mx-auto
+}
 
 @keyframes bgRotate {
   100% {
