@@ -1,10 +1,11 @@
 // File: app/about/page.tsx
 import React from 'react'
+import AboutIntro from './AboutIntro';
 function page() {
   return (
-   <>
-   About page
-   </>
+   <div className='page'>
+   <AboutIntro/>
+   </div>
   );
 }
 
