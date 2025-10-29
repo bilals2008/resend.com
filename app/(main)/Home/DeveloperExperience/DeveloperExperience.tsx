@@ -1,7 +1,7 @@
 // File: components/DeveloperExperience/DeveloperExperience.tsx
 import React from "react";
-import TextBlock from "../../../components/common/TextBlock";
 import FeatureCard from "./FeatureCard";
+import TextBlock from "@/components/common/TextBlock";
 
 function DeveloperExperience() {
   return (

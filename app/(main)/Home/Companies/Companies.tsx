@@ -1,7 +1,7 @@
 // File: components/Companies/Companies.tsx
 import React from "react";
-import ShiningLine from "../../../components/common/ShiningLine";
 import CompaniesLogos from "./CompaniesLogos";
+import ShiningLine from "@/components/common/ShiningLine";
 
 function Companies() {
   return (

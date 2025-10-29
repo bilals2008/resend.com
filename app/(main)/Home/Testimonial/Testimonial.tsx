@@ -1,8 +1,8 @@
 // File: components/Testimonial/Testimonial.tsx
 import React from "react";
-import ShiningLine from "../../../components/common/ShiningLine";
-import ContentSection from "../../../components/common/ContentSection";
 import ClientQoute from "./ClientQoute";
+import ShiningLine from "@/components/common/ShiningLine";
+import ContentSection from "@/components/common/ContentSection";
 
 function Testimonial() {
   const heaing = (

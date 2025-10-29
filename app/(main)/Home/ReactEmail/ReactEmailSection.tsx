@@ -1,7 +1,7 @@
 // File: components/ReactEmail/ReactEmailSection.tsx
 import React from "react";
-import ContentSection from "../../../components/common/ContentSection";
 import ImageSec from "./ImageSec";
+import ContentSection from "@/components/common/ContentSection";
 
 function ReactEmailSection() {
   return (

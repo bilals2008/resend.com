@@ -1,6 +1,6 @@
 // File: app/layout.tsx
 import { ThemeProvider } from "@/components/theme-provider";
-import "./globals.css";
+import "../globals.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";

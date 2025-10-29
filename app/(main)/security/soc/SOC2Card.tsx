@@ -115,6 +115,7 @@ function SOC2Card() {
         </div>
       </div>
     </section>
+    
   );
 }
 

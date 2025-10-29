@@ -45,7 +45,7 @@ and adhere to stringent industry standards."
 growth play but a long-term security investment."
             btnText={["Learn more about SOC 2"]}
             btn1ClassName="-mt-7"
-            isLink={["/soc"]}
+            isLink={["/security/soc"]}
           />
         </div>
         {/* SecurityControl */}

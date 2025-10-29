@@ -35,15 +35,20 @@ function MobileMenu() {
           {/* Header row */}
           <div className="flex justify-between items-center mb-6">
             <Logo />
-          
           </div>
 
           {/* Buttons */}
           <div className="flex flex-col gap-2 mb-6">
-            <Button variant="outline" className="w-full font-medium hover:bg-white mb-3">
-        Log in
+            <Button
+              variant="outline"
+              className="w-full font-medium hover:bg-white mb-3"
+              asChild
+            >
+              <Link href={"/login"}> Log in</Link>
             </Button>
-            <Button className="w-full font-semibold">Get Started</Button>
+            <Button className="w-full font-semibold" asChild>
+              <Link href={"/login"}>Get Started</Link>
+            </Button>
           </div>
 
           {/* Menu links */}
