@@ -2,8 +2,8 @@
 import TextBlock from '@/components/common/TextBlock'
 import React from 'react'
 import TabList from './TabList';
-import PricingCard from './PricingCard';
-import { pricingPlans } from './pricingData';
+import Addon from './Addon';
+import PricingSection from './pricingSection/PricingSection';
 
 function page() {
   return (
@@ -14,11 +14,8 @@ function page() {
         className="text-center"
       />
       <TabList />
-      <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
-        {pricingPlans.map((plan, idx) => (
-          <PricingCard key={plan.id} plan={plan} isActive={idx === 0} />
-        ))}
-      </div>
+      <PricingSection/>
+     <Addon/>
     </div>
   );
 }
