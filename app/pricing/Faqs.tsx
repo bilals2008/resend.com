@@ -5,7 +5,7 @@ import React from 'react'
 
 function Faqs() {
   return (
-    <div className='py-10'>
+    <div className='py-20'>
       <FAQs data={PricingFaqData}/>
    
     </div>
