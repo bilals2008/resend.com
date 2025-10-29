@@ -4,8 +4,8 @@
 
 import React from "react";
 import { Check, X } from "lucide-react";
-import { PricingPlan } from "./pricingData";
 import { Button } from "@/components/ui/button";
+import { PricingPlan } from "./pricingData";
 
 interface PricingCardProps {
   plan: PricingPlan;

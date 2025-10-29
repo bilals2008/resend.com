@@ -4,6 +4,7 @@ import React from 'react'
 import TabList from './TabList';
 import Addon from './Addon';
 import PricingSection from './pricingSection/PricingSection';
+import Trrusted from './Trrusted';
 
 function page() {
   return (
@@ -16,6 +17,7 @@ function page() {
       <TabList />
       <PricingSection/>
      <Addon/>
+     <Trrusted/>
     </div>
   );
 }
