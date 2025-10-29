@@ -10,7 +10,15 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "source.unsplash.com",
+        hostname: "logo.clearbit.com",
+      },
+      {
+        protocol: "https",
+        hostname: "stickpng.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cleanpng.com",
       },
     ],
   },
