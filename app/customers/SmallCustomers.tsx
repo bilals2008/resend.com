@@ -30,7 +30,7 @@ function SmallCustomers() {
               height={30}
               className="grayscale opacity-70 hover:opacity-100 transition-opacity duration-300"
             />
-            <span className="text-xs md:text-sm font-medium text-nowrap truncate">
+            <span className="text-xs md:text-sm font-medium text-nowrap ">
               {logo.name}
             </span>
           </motion.div>
