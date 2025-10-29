@@ -13,12 +13,13 @@ interface Props {
   imgalt?: string;
   ClassName?: string;
   heading?: string | React.ReactNode;
-  desciption?: string;
+  desciption?: string | React.ReactNode;
   btnText?: string[];
   imgWidth?: number;
   imgHeight?: number;
   headingClassName?: string;
   imgClassName?: string;
+  btn1ClassName?:string
 }
 
 function ContentSection({
@@ -31,6 +32,8 @@ function ContentSection({
   imgHeight,
   headingClassName,
   imgClassName,
+  btn1ClassName,
+  ClassName
 }: Props) {
   // 🔹 Soft fade-up animation (lightweight)
   const fadeUp: Variants = {
@@ -51,7 +54,7 @@ function ContentSection({
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="flex flex-col items-center justify-center mx-auto w-full px-2 py-10"
+      className={`flex flex-col items-center justify-center mx-auto w-full px-2 py-10 ${ClassName}`}
     >
       {/* Image */}
       <motion.div variants={fadeUp} className={imgClassName}>
@@ -93,7 +96,7 @@ function ContentSection({
         {btnText[0] && (
           <Button
             size="lg"
-            className="group bg-primary text-primary-foreground hover:shadow-primary/30 relative overflow-x-hidden rounded-full px-6 shadow-lg transition-all duration-300"
+            className={`group bg-primary text-primary-foreground hover:shadow-primary/30 relative overflow-x-hidden rounded-full px-6 shadow-lg transition-all duration-300 ${btn1ClassName}`}
           >
             <span className="relative z-10 flex items-center">
               {btnText[0]}

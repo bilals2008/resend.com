@@ -7,8 +7,7 @@ type Menuitems ={
 
 }
 
-export const menuItems:Menuitems[] = [
- 
+export const menuItems: Menuitems[] = [
   {
     title: "About",
     href: "/about",
@@ -20,26 +19,25 @@ export const menuItems:Menuitems[] = [
   {
     title: "Customers",
     href: "/customers",
-
   },
   {
     title: "Docs",
     href: "/docs",
-  
   },
   {
     title: "Enterprise",
     href: "/enterprise",
-    
   },
   {
     title: "Changelog",
     href: "/changelog",
-   
   },
   {
     title: "Pricing",
     href: "/pricing",
-   
+  },
+  {
+    title: "Security",
+    href: "/security",
   },
 ];
