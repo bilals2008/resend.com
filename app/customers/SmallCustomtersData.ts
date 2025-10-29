@@ -587,4 +587,14 @@ export const logos = [
     alt: "Railway",
     name: "Railway",
   },
+  {
+    src: "https://logo.clearbit.com/finta.com",
+    alt: "Finta",
+    name: "Finta",
+  },
+  {
+    src: "https://logo.clearbit.com/finarylabs.com",
+    alt: "FinaryLabs",
+    name: "FinaryLabs",
+  },
 ];
