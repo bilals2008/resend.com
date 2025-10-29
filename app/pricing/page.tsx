@@ -5,6 +5,7 @@ import TabList from './TabList';
 import Addon from './Addon';
 import PricingSection from './pricingSection/PricingSection';
 import Trrusted from './Trrusted';
+import Faqs from './Faqs';
 
 function page() {
   return (
@@ -18,6 +19,7 @@ function page() {
       <PricingSection/>
      <Addon/>
      <Trrusted/>
+     <Faqs/>
     </div>
   );
 }
