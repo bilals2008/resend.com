@@ -22,7 +22,7 @@ export const menuItems: Menuitems[] = [
   },
   {
     title: "Docs",
-    href: "/docs",
+    href: "/docs/introduction",
   },
   {
     title: "Enterprise",
