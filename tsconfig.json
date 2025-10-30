@@ -37,7 +37,7 @@
     "**/*.mts",
     ".next\\dev/types/**/*.ts",
     ".next\\dev/types/**/*.ts"
-  ],
+, "app/(main)/enterprise/EnterpriseSecurity"  ],
   "exclude": [
     "node_modules"
   ]
