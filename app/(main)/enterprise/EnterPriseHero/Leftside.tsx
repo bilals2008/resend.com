@@ -1,4 +1,5 @@
 // File: app/(main)/enterprise/EnterPriseHero/Leftside.tsx
+import ShiningLine from '@/components/common/ShiningLine';
 import { Button } from '@/components/ui/button';
 import { Field, FieldGroup, FieldLabel, FieldSet } from '@/components/ui/field'
 import { Input } from '@/components/ui/input';
@@ -9,7 +10,8 @@ import React from 'react'
 function Leftside() {
   return (
     <div className="">
-      <FieldSet className="border rounded-sm  p-8">
+      <FieldSet className="border rounded-sm relative p-8">
+        <ShiningLine/>
         <FieldGroup>
           <Field>
             <FieldLabel htmlFor="username">Email address</FieldLabel>
