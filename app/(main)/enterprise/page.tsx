@@ -4,6 +4,7 @@ import EnterPriseHero from './EnterPriseHero/EnterPriseHero'
 import PartnershipSection from './PartnershipSection'
 import TrustedTeam from './TrustedTeam'
 import EnterpriseSecurity from './EnterpriseSecurity/EnterpriseSecurity'
+import EnterpriseFAQs from './EnterpriseFAQs/EnterpriseFAQs'
 
 function page() {
   return (
@@ -13,6 +14,7 @@ function page() {
         <div className='w-full h-40 py-10'></div>
         <TrustedTeam/>
         <EnterpriseSecurity/>
+        <EnterpriseFAQs/>
     </div>
   )
 }
