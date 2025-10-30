@@ -3,8 +3,10 @@ import React from 'react'
 
 function page() {
   return (
-    <div>Signup</div>
-  )
+    <div className="w-screen h-screen overflow-x-hidden flex items-center justify-center">
+      SignUp
+    </div>
+  );
 }
 
 export default page
