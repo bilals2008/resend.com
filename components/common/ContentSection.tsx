@@ -20,8 +20,10 @@ interface Props {
   imgHeight?: number;
   headingClassName?: string;
   imgClassName?: string;
+  btnWrapperClassName?: string; // ✅ NEW
   btn1ClassName?: string;
-  isLink?: string[]; 
+  isLink?: string[];
+  paraClassName?: string;
 }
 
 function ContentSection({
@@ -34,11 +36,13 @@ function ContentSection({
   imgHeight,
   headingClassName,
   imgClassName,
+  btnWrapperClassName,
   btn1ClassName,
-  isLink = [], 
+  isLink = [],
   ClassName,
+  paraClassName,
 }: Props) {
-  // 🔹 Soft fade-up animation (lightweight)
+  // 🔹 Soft fade-up animation
   const fadeUp: Variants = {
     hidden: { opacity: 0, y: 30 },
     show: {
@@ -60,7 +64,10 @@ function ContentSection({
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className={`flex flex-col items-center justify-center mx-auto w-full px-2 py-10 ${ClassName}`}
+      className={cn(
+        "flex flex-col items-center justify-center mx-auto w-full px-2 py-10",
+        ClassName
+      )}
     >
       {/* Image */}
       <motion.div variants={fadeUp} className={imgClassName}>
@@ -89,7 +96,10 @@ function ContentSection({
       {/* Description */}
       <motion.p
         variants={fadeUp}
-        className="text-muted-foreground mt-1 max-w-xl mx-auto text-center"
+        className={cn(
+          "text-muted-foreground mt-1 max-w-xl mx-auto text-center",
+          paraClassName
+        )}
       >
         {desciption}
       </motion.p>
@@ -97,7 +107,10 @@ function ContentSection({
       {/* Buttons */}
       <motion.div
         variants={fadeUp}
-        className="mt-10 flex flex-row items-center justify-center gap-4"
+        className={cn(
+          "mt-10 flex flex-row items-center justify-center gap-4",
+          btnWrapperClassName // ✅ order class yahan lagegi
+        )}
       >
         {/* 🔹 Button 1 */}
         {btnText[0] && (
