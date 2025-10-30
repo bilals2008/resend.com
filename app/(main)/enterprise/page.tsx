@@ -2,6 +2,7 @@
 import React from 'react'
 import EnterPriseHero from './EnterPriseHero/EnterPriseHero'
 import PartnershipSection from './PartnershipSection'
+import TrustedTeam from './TrustedTeam'
 
 function page() {
   return (
@@ -9,6 +10,7 @@ function page() {
         <EnterPriseHero/>
         <PartnershipSection/>
         <div className='w-full h-40 py-10'></div>
+        <TrustedTeam/>
     </div>
   )
 }
