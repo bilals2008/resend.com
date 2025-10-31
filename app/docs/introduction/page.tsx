@@ -25,7 +25,7 @@ function IntroductionPage() {
         </main>
 
         {/* Right Sidebar */}
-        <aside className="hidden lg:block w-[244px] px-5 py-2 bg-amber-300/40 rounded-md h-[600px]">
+        <aside className="hidden lg:block w-[244px] px-5 py-2 h-[600px]">
           <RightPanel />
         </aside>
       </div>
