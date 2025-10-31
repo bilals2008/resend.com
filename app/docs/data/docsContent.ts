@@ -1,75 +1,4 @@
 // File: app/docs/data/docsContent.ts
-// interface DocsItem {
-//   title: string;
-//   icon?: string;
-//   link?: string;
-// }
-
-// interface DocsCategory {
-//   title: string;
-//   items: DocsItem[];
-// }
-
-// interface DocsContent {
-//   id: number;
-//   section: string;
-//   description: string;
-//   items?: DocsItem[];
-//   categories?: DocsCategory[];
-// }
-
-// export const docsContent: DocsContent[] = [
-//   {
-//     id: 1,
-//     section: "Quickstart",
-//     description: "Learn how to get Resend set up in your project.",
-//     items: [
-//       { title: "Node.js Quickstart", icon: "/icons/nodejs.svg" },
-//       { title: "Next.js Quickstart", icon: "/icons/nextjs.svg" },
-//       { title: "Express Quickstart", icon: "/icons/express.svg" },
-//       { title: "PHP Quickstart", icon: "/icons/php.svg" },
-//       { title: "Laravel Quickstart", icon: "/icons/laravel.svg" },
-//       { title: "Python Quickstart", icon: "/icons/python.svg" },
-//       { title: "Ruby Quickstart", icon: "/icons/ruby.svg" },
-//       { title: "Rails Quickstart", icon: "/icons/rails.svg" },
-//       { title: "Go Quickstart", icon: "/icons/go.svg" },
-//       { title: "Elixir Quickstart", icon: "/icons/elixir.svg" },
-//       { title: "Java Quickstart", icon: "/icons/java.svg" },
-//     ],
-//   },
-//   {
-//     id: 2,
-//     section: "SDKs",
-//     description: "Open source client libraries for your favorite platforms.",
-//     categories: [
-//       {
-//         title: "Official SDKs",
-//         items: [
-//           { title: "Node.js", link: "github.com/resend/resend-node" },
-//           { title: "PHP", link: "github.com/resend/resend-php" },
-//           { title: "Laravel", link: "github.com/resend/resend-laravel" },
-//           { title: "Python", link: "github.com/resend/resend-python" },
-//           { title: "Ruby", link: "github.com/resend/resend-ruby" },
-//           { title: "Go", link: "github.com/resend/resend-go" },
-//           { title: "Java", link: "github.com/resend/resend-java" },
-//         ],
-//       },
-//       {
-//         title: "Community SDKs",
-//         items: [
-//           { title: "Elixir", link: "github.com/elixir-saas/resend-elixir" },
-//           { title: ".NET", link: "github.com/filipatoscano/resend.net" },
-//           { title: "NestJS", link: "github.com/jiangtaste/nestjs-resend" },
-//         ],
-//       },
-//       {
-//         title: "OpenAPI",
-//         items: [{ title: "OpenAPI", link: "github.com/resend/resend-openapi" }],
-//       },
-//     ],
-//   },
-// ];
-
 
 
 // Introduction Page Data
@@ -84,7 +13,6 @@ export interface ExploreCard {
   id: number;
   title: string;
   description: string;
-  link: string;
 }
 
 export interface IntroductionData {
@@ -100,6 +28,7 @@ export interface IntroductionData {
     description: string;
     cards: ExploreCard[];
   };
+  next:[{title:string,link:string}]
 }
 
 export const introductionData: IntroductionData = {
@@ -130,22 +59,26 @@ export const introductionData: IntroductionData = {
         id: 1,
         title: "Emails",
         description: "Visualize all the activity in your account.",
-        link: "/docs/features/emails",
       },
       {
         id: 2,
         title: "Domains",
         description: "Ensure deliverability of your emails.",
-        link: "/docs/features/domains",
+       
       },
       {
         id: 3,
         title: "Webhooks",
         description: "Notify your application about email events.",
-        link: "/docs/features/webhooks",
       },
     ],
   },
+  next: [
+    {
+      title:"Examples",
+      link:"/docs/examples"
+    }
+  ]
 };
 
 // SDKs Page Data

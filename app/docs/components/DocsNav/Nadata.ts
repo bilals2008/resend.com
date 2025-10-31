@@ -1,5 +1,4 @@
 // File: app/docs/components/DocsNav/Nadata.ts
-// File: app/docs/data/sidebarData.tsx
 
 export interface NavItem {
   id: number;
