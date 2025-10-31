@@ -75,63 +75,12 @@ export const introductionData: IntroductionData = {
   },
   next: [
     {
-      title:"Examples",
-      link:"/docs/examples"
+      title:"SDKs",
+      link:"/docs/sdks"
     }
   ]
 };
 
-// SDKs Page Data
-export interface SDKItem {
-  id: number;
-  title: string;
-  icon: string;
-  link: string;
-}
-
-export interface SDKCategory {
-  title: string;
-  items: SDKItem[];
-}
-
-export interface SDKsData {
-  title: string;
-  subtitle: string;
-  categories: SDKCategory[];
-}
-
-export const sdksData: SDKsData = {
-  title: "SDKs",
-  subtitle: "Open source client libraries for your favorite platforms.",
-  categories: [
-    {
-      title: "Official SDKs",
-      items: [
-        { id: 1, title: "Node.js", icon: "nodejs", link: "github.com/resend/resend-node" },
-        { id: 2, title: "PHP", icon: "php", link: "github.com/resend/resend-php" },
-        { id: 3, title: "Laravel", icon: "laravel", link: "github.com/resend/resend-laravel" },
-        { id: 4, title: "Python", icon: "python", link: "github.com/resend/resend-python" },
-        { id: 5, title: "Ruby", icon: "ruby", link: "github.com/resend/resend-ruby" },
-        { id: 6, title: "Go", icon: "go", link: "github.com/resend/resend-go" },
-        { id: 7, title: "Java", icon: "java", link: "github.com/resend/resend-java" },
-      ],
-    },
-    {
-      title: "Community SDKs",
-      items: [
-        { id: 8, title: "Elixir", icon: "elixir", link: "github.com/elixir-saas/resend-elixir" },
-        { id: 9, title: ".NET", icon: "dotnet", link: "github.com/filipatoscano/resend.net" },
-        { id: 10, title: "NestJS", icon: "nestjs", link: "github.com/jiangtaste/nestjs-resend" },
-      ],
-    },
-    {
-      title: "OpenAPI",
-      items: [
-        { id: 11, title: "OpenAPI", icon: "openapi", link: "github.com/resend/resend-openapi" },
-      ],
-    },
-  ],
-};
 
 // Examples Page Data
 export interface ExampleItem {
