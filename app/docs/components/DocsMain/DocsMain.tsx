@@ -17,10 +17,10 @@ export default function DocsMain() {
       {/* Quickstart Section */}
       <QuickstartSection />
       {/* Explore Section */}
-      <ExploreSection/>
-      <HelpfulSection/>
+      <ExploreSection />
+      <HelpfulSection />
 
-    <Breaadcrumb/>
+      <Breaadcrumb />
     </div>
   );
 }

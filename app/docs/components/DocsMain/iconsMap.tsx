@@ -8,88 +8,99 @@ export const iconMap: Record<string, React.ReactNode> = {
     <Image
       src="/images/Home/LangsLogo/js.png"
       alt="Node.js"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   nextjs: (
     <Image
       src="/images/Home/LangsLogo/nextjs.png"
       alt="Next.js"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   express: (
     <Image
       src="/images/Home/LangsLogo/expressjs.png"
       alt="Express"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   php: (
     <Image
       src="/images/Home/LangsLogo/php.png"
       alt="PHP"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   laravel: (
     <Image
       src="/images/Home/LangsLogo/laravel.png"
       alt="Laravel"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   python: (
     <Image
       src="/images/Home/LangsLogo/python.png"
       alt="Python"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   ruby: (
     <Image
       src="/images/Home/LangsLogo/ruby.png"
       alt="Ruby"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   rails: (
     <Image
       src="/images/Home/LangsLogo/rail.png"
       alt="Rails"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   go: (
     <Image
       src="/images/Home/LangsLogo/go.png"
       alt="Go"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   elixir: (
     <Image
       src="/images/Home/LangsLogo/elixir.png"
       alt="Elixir"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   java: (
     <Image
       src="/images/Home/LangsLogo/java.png"
       alt="Java"
-      width={20}
-      height={20}
+      width={25}
+      height={25}
+       className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
 };

@@ -32,12 +32,14 @@ export default function DocsLayout({
 
             <div className="flex gap-4 relative">
               {/* Sidebar Navigation */}
-              <aside className="hidden md:block w-60 py-2">
+              <aside className="hidden md:block w-60 py-2 ">
                 <DocsNav />
               </aside>
 
               {/* Main Content */}
-              <main className="flex-1 px-5 py-2 border-x">{children}</main>
+              <main className="flex-1 px-5 py-2 border-b pb-2">
+                {children}
+              </main>
 
               {/* Right Sidebar */}
               <aside className="hidden lg:block w-[244px] px-5 py-2 h-[600px]">
