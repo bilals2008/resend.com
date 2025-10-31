@@ -16,7 +16,7 @@ export default function DocsNav() {
   };
 
   return (
-    <aside className="text-gray-200">
+    <aside className="text-gray-200 px-2">
       {DocsNavData.map((section) => (
         <div key={section.id} className="mb-6">
           {/* Section Title with Icon */}
