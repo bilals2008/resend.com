@@ -85,7 +85,7 @@ export const sdksData: SDKsData = {
         {
           id: 11,
           title: "OpenAPI",
-          icon: "openapi",
+          icon: "openai",
         },
       ],
     },

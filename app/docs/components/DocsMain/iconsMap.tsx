@@ -10,7 +10,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Node.js"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   nextjs: (
@@ -19,7 +19,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Next.js"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   express: (
@@ -28,7 +28,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Express"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   php: (
@@ -37,7 +37,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="PHP"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   laravel: (
@@ -46,7 +46,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Laravel"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   python: (
@@ -55,7 +55,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Python"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   ruby: (
@@ -64,7 +64,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Ruby"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   rails: (
@@ -73,7 +73,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Rails"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   go: (
@@ -82,7 +82,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Go"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   elixir: (
@@ -91,7 +91,7 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Elixir"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
   java: (
@@ -100,7 +100,34 @@ export const iconMap: Record<string, React.ReactNode> = {
       alt="Java"
       width={25}
       height={25}
-       className="grayscale hover:grayscale-0 transition duration-300"
+      className="grayscale hover:grayscale-0 transition duration-300"
+    />
+  ),
+  nestjs: (
+    <Image
+      src="/images/Home/LangsLogo/nestjs.png"
+      alt="nestjs"
+      width={25}
+      height={25}
+      className="grayscale hover:grayscale-0 transition duration-300"
+    />
+  ),
+  openai: (
+    <Image
+      src="/images/Home/LangsLogo/openai.png"
+      alt="openai"
+      width={25}
+      height={25}
+      className="grayscale hover:grayscale-0 transition duration-300"
+    />
+  ),
+  dotnet: (
+    <Image
+      src="/images/Home/LangsLogo/dotnet.png"
+      alt="dotnet"
+      width={25}
+      height={25}
+      className="grayscale hover:grayscale-0 transition duration-300"
     />
   ),
 };
