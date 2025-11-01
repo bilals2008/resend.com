@@ -1,8 +1,8 @@
 // File: components/EmailFeatures/EmailFeatures.tsx
 import React from 'react'
-import ShiningLine from "../../../../components/common/ShiningLine.tsx";
+import ShiningLine from "../../../../components/common/ShiningLine";
 import EmailFeatureList from './EmailFeatureList';
-import TextBlock from '../../../../components/common/TextBlock.tsx'
+import TextBlock from '../../../../components/common/TextBlock'
 function EmailFeatures() {
   return (
     <div className="max-w-5xl mx-auto px-2 py-10 border-t  relative mt-56 mb-10">
