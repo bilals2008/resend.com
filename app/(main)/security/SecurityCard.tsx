@@ -1,3 +1,4 @@
+// File: app/(main)/security/SecurityCard.tsx
 "use client";
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -13,10 +14,10 @@ const SecurityCard = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.15 }}
-      className="max-w-6xl mx-auto pb-10 px-4 grid md:grid-cols-2 lg:grid-cols-3"
+      className="max-w-6xl  mx-auto pb-10 md:px-4 grid md:grid-cols-2 lg:grid-cols-3 "
     >
       {securityData.map((section, index) => (
-        <motion.div key={index} variants={zoomIn}>
+        <motion.div key={index} variants={zoomIn} className="">
           <Card className="bg-background text-gray-200 hover:border-[#2b2f36] transition-colors rounded-none border-collapse">
             <CardContent className="p-6 space-y-4">
               <h3 className="text-lg font-semibold text-white">
