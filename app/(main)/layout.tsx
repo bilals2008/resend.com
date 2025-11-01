@@ -6,10 +6,9 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { siteMetadata } from "../metadata/siteMeatadata";
 
-// const inter = Inter({ subsets: ["latin"] });
 const domine = Domine({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // jo weights chahiyein wo add karo
+  weight: ["400", "500", "600", "700"], 
 });
  export const metadata = siteMetadata
 export default function RootLayout({
