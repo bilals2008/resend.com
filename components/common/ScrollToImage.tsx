@@ -1,18 +1,25 @@
 // File: components/common/ScrollToImage.ts
+"use client";
 
-function ScrollImage({
-  src,
-  direction,
-  index,
-}: {
+import React, { useRef } from "react";
+import Image from "next/image";
+import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { slideInScroll } from "@/components/animations/variants";
+
+export interface ScrollImageProps {
   src: string;
   direction: "left" | "right";
   index: number;
-}) {
-  const ref = useRef(null);
+}
+
+export default function ScrollImage({
+  src,
+  direction,
+  index,
+}: ScrollImageProps) {
+  const ref = useRef<HTMLDivElement | null>(null);
   const inView = useInView(ref, { once: true, amount: 0.3 });
 
-  // Scroll-based parallax movement (depth effect)
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"],

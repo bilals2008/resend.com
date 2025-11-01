@@ -1,13 +1,11 @@
 // File: app/about/BeliefsSection/FeatureCard.tsx
 "use client";
 
-import React, { useRef } from "react";
+import React from "react";
 import Image from "next/image";
-import { motion, useInView, useScroll, useTransform } from "motion/react";
+import { motion, useInView, useScroll, useTransform } from "motion/react"; // Motion v2 import
 import { slideInScroll } from "@/components/animations/variants";
 import { images } from "./Images";
-
-
 
 function FeatureCard() {
   return (
@@ -33,10 +31,9 @@ function ScrollImage({
   direction: "left" | "right";
   index: number;
 }) {
-  const ref = useRef(null);
+  const ref = React.useRef<HTMLDivElement | null>(null); // ✅ type-safe ref
   const inView = useInView(ref, { once: true, amount: 0.3 });
 
-  // Scroll-based parallax movement (depth effect)
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"],
