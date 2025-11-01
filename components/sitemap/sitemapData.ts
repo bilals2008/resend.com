@@ -15,17 +15,10 @@ export const sitemapData = [
     ],
   },
   {
-    category: "Docs",
-    links: [
-      { title: "Introduction", link: "/docs/introduction" },
-      { title: "SDKs", link: "/docs/sdks" },
-      { title: "Examples", link: "/docs/examples" },
-    ],
-  },
-  {
     category: "Resend Status",
     links: [
       { title: "Status", link: "/resend-status" },
+      { title: "SOC", link: "/security/soc" },
       { title: "Maintenance", link: "/resend-status/maintenance" },
       {
         title: "Previous-incidents",
@@ -34,10 +27,19 @@ export const sitemapData = [
     ],
   },
   {
+    category: "Docs",
+    links: [
+      { title: "Introduction", link: "/docs/introduction" },
+      { title: "SDKs", link: "/docs/sdks" },
+      { title: "Examples", link: "/docs/examples" },
+    ],
+  },
+
+  {
     category: "Auth",
     links: [
-      { title: "Login", link: "/auth/login" },
-      { title: "Signup", link: "/auth/signup" },
+      { title: "Login", link: "/login" },
+      { title: "Signup", link: "/signup" },
     ],
   },
 ];

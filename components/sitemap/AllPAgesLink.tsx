@@ -9,10 +9,11 @@ import {
   DrawerContent,
   DrawerHeader,
   DrawerTitle,
+  Button,
 } from "@/components/ui/drawer2";
 import { sitemapData } from "./sitemapData";
-import { Button } from "../ui/button";
-
+import { Button as Button2} from "../ui/button";
+import { Layout, LayoutGrid } from "lucide-react";
 function AllPagesLink() {
   const [open, setOpen] = useState(false);
 
@@ -22,11 +23,19 @@ function AllPagesLink() {
       <Button
         variant="outline"
         onClick={() => setOpen(true)}
-        className="p-2 border bg-background"
+        className=" lg:hidden p-2 border bg-background"
       >
         Pages
       </Button>
-
+      <Button2
+        onClick={() => setOpen(true)}
+        className="hidden lg:flex items-center justify-center gap-2 rounded-full font-semibold px-6 py-2 cursor-pointer 
+  hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 
+  transition-all duration-500 hover:scale-[1.05] hover:shadow-pink-500/30 hover:bg-transparent hover:text-white border group"
+      >
+        <LayoutGrid className="w-4 h-4 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
+        Pages
+      </Button2>
       {/* 🪟 Drawer */}
       <Drawer open={open} onOpenChange={setOpen} side="bottom">
         <DrawerOverlay />

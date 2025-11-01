@@ -1,3 +1,4 @@
+// File: components/Header/Header.tsx
 import React from "react";
 import Logo from "./Navbar/computer/Logo";
 import Menu from "./Navbar/computer/Menu";
