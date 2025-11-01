@@ -19,7 +19,6 @@ function LangList() {
     "ruby",
   ];
 
-  // ✅ Type-safe Variants
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     show: {
@@ -37,7 +36,7 @@ function LangList() {
       opacity: 1,
       y: 0,
       transition: {
-        type: "spring", // <-- IMPORTANT: define type here
+        type: "spring", 
         stiffness: 180,
         damping: 14,
       },
@@ -67,7 +66,7 @@ function LangList() {
               group-hover:border-blue-500 group-hover:shadow-[0_0_15px_rgba(59,130,246,0.5)] transition-all duration-300 ease-out bg-black"
             >
               <Image
-                src={`/images/LangsLogo/${lang}.png`}
+                src={`/images/Home/LangsLogo/${lang}.png`}
                 alt={`${lang} logo`}
                 width={40}
                 height={40}
