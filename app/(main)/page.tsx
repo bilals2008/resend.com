@@ -4,7 +4,7 @@ import AnalyticsControl from "./Home/AnalyticsControl/AnalyticsControl";
 import BeyondExpectations from "./Home/BeyondExpectations/BeyondExpectations";
 import Companies from "./Home/Companies/Companies";
 import DeveloperExperience from "./Home/DeveloperExperience/DeveloperExperience";
-import EmailFeatureList from "./Home/EmailFeatures/EmailFeatures";
+import EmailFeatureList from "./Home/EmailFeatures/EmailFeatureList";
 import Hero from "./Home/Hero/Hero";
 import IntegrateLangs from "./Home/IntegrateLang/IntegrateLangs";
 import ReactEmailSection from "./Home/ReactEmail/ReactEmailSection";

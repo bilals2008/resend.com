@@ -1,5 +1,5 @@
 // File: components/common/TextBlock.tsx
-"use client";
+"use client"
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/variants";
