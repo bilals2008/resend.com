@@ -40,8 +40,5 @@ export const menuItems: Menuitems[] = [
     title: "Security",
     href: "/security",
   },
-  {
-    title: "Status",
-    href: "/resend-status",
-  },
+ 
 ];
