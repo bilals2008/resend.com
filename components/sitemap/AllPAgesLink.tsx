@@ -46,8 +46,8 @@ function AllPagesLink() {
             border-t border-border 
             bg-background 
             shadow-xl 
-            max-h-[85vh]         /* 👈 height limit */
-            overflow-y-auto       /* 👈 scroll enabled */
+            max-h-[85vh]    
+            overflow-y-auto      
             scrollbar-thin scrollbar-thumb-muted scrollbar-track-transparent
           "
         >
@@ -71,13 +71,13 @@ function AllPagesLink() {
                 </h3>
 
                 {/* Links */}
-                <ul className="grid grid-cols-2 sm:grid-cols-2 gap-3">
+                <ul className="grid grid-cols-2 sm:grid-cols-2 gap-1 md:gap-3">
                   {section.links.map((item, index) => (
                     <li key={index}>
                       <Link
                         href={item.link}
                         onClick={() => setOpen(false)}
-                        className="block py-2.5 px-3 rounded-md bg-background border border-border/40 hover:border-primary/50 hover:bg-primary/10 text-sm text-muted-foreground hover:text-primary transition-all duration-200 shadow-sm"
+                        className="w-fit text-nowrap  block py-2.5 px-1 md:px-3 rounded-md border border-border/40 hover:border-primary/50 hover:bg-primary/10 text-sm text-muted-foreground hover:text-primary transition-all duration-200 shadow-sm"
                       >
                         {item.title}
                       </Link>
