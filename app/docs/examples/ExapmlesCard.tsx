@@ -10,7 +10,7 @@ function ExapmlesCard() {
     <div>
       <section className="pt-8">
         <h2 className="text-2xl font-semibold pb-5">Offical SDKs</h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className=" w-full grid  md:grid-cols-2 gap-2 md:gap-4">
           {examplesData.examples.map((exp, idx) => (
             <Card
               key={idx}

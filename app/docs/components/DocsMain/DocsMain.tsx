@@ -11,7 +11,7 @@ import Breaadcrumb from "./Breaadcrumb";
 
 export default function DocsMain() {
   return (
-    <div className="pl-5 text-neutral-200">
+    <div className="md:pl-5 text-neutral-200">
       {/*  Top Section */}
       <TopSection />
       {/* Quickstart Section */}

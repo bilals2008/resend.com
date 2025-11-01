@@ -10,7 +10,7 @@ function OfficalSdks() {
     <div>
       <section className="pt-8">
         <h2 className="text-2xl font-semibold pb-5">Offical SDKs</h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {sdksData.categories[0].items.map((sdk, idx) => (
             <Card
               key={idx}
