@@ -15,7 +15,7 @@ export default function DocsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} bg-background`}>
         <Navbar />
         <ThemeProvider

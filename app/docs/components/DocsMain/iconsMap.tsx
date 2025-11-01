@@ -1,6 +1,7 @@
 // File: app/docs/components/DocsMain/iconsMap.tsx
 import React from "react";
 import Image from "next/image";
+import { BellDotIcon, Dock, Hourglass, Mail, WebhookIcon } from "lucide-react";
 
 // 🔹 Export map of language logos
 export const iconMap: Record<string, React.ReactNode> = {
@@ -129,5 +130,27 @@ export const iconMap: Record<string, React.ReactNode> = {
       height={25}
       className="grayscale hover:grayscale-0 transition duration-300"
     />
+  ),
+  attachment: <Dock />,
+  nextauth: (
+    <Image
+      src="/images/Home/LangsLogo/nextjs.png"
+      alt="Next.js"
+      width={25}
+      height={25}
+      className="grayscale hover:grayscale-0 transition duration-300"
+    />
+  ),
+  react: (
+  <Hourglass/>
+  ),
+  gmail: (
+   <Mail/>
+  ),
+  unsubscribe: (
+   <BellDotIcon/>
+  ),
+  webhook: (
+    <WebhookIcon size={25} className="grayscale"/>
   ),
 };
