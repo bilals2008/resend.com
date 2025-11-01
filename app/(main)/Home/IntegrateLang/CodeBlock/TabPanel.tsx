@@ -7,6 +7,7 @@ import { tabsList } from "./TabsList";
 import CodePanel from "./CodePanel";
 import { Clipboard } from "lucide-react";
 import CodeFooter from "./CodeFooter";
+import { codeSnippets } from "./CodeSnippets";
 
 function TabPanel() {
   return (
@@ -18,7 +19,7 @@ function TabPanel() {
               <TabsTrigger
                 key={idx}
                 value={tab.label.toLowerCase()}
-                className="flex-shrink-0 cursor-pointer"
+                className="shrink-0 cursor-pointer"
               >
                 <div className="flex items-center justify-center gap-1 p-1 px-2">
                   <Image
@@ -38,7 +39,9 @@ function TabPanel() {
         </div>
         {tabsList.map((tab, idx) => (
           <TabsContent key={idx} value={tab.label.toLowerCase()}>
-            <CodePanel activeTab={tab.label.toLowerCase()} />
+            <CodePanel
+              activeTab={tab.label.toLowerCase() as keyof typeof codeSnippets}
+            />
           </TabsContent>
         ))}
         <CodeFooter />
